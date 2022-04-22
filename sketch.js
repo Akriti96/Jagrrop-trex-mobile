@@ -160,7 +160,7 @@ function draw() {
   // text(mouseX + "," + mouseY, mouseX, mouseY);
   textSize(15);
   textFont('retrofont');
-  text("score: " + score, width/2-250, height/2+100);
+  text("score: " + score, width/2-150, height/2+100);
   text("HI Score: "+localStorage["HighestScore"],width/2-100,height/2+100)
 
   //trex should colied with ground
